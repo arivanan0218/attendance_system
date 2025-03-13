@@ -80,6 +80,6 @@ python 4_recognizingPerson.py
 
 ---
 
-## Contributors
+## Contributor
 - **Arivanan V.**
 
