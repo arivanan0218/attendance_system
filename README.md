@@ -20,7 +20,7 @@ pip install opencv-python imutils numpy scikit-learn
 
 To create a dataset for training:
 ```bash
-python dataset_creation.py
+python 1_datasetCreation.py
 ```
 ### Instructions
 - Enter your name and roll number when prompted.
@@ -32,7 +32,7 @@ python dataset_creation.py
 
 To extract facial embeddings from the dataset:
 ```bash
-python preprocessing.py
+python 2_preprocessingEmbeddings.py
 ```
 ### Result
 - `embeddings.pickle` will be generated in the `output` folder.
@@ -43,7 +43,7 @@ python preprocessing.py
 
 To train the SVM model for face recognition:
 ```bash
-python train_face_ml.py
+python 3_trainingFaceML.py
 ```
 ### Result
 - `recognizer.pickle` and `le.pickle` will be created in the `output` folder.
@@ -54,7 +54,7 @@ python train_face_ml.py
 
 To recognize persons in real-time:
 ```bash
-python recognize_person.py
+python 4_recognizingPerson.py
 ```
 ### Instructions
 - The system will recognize faces in real-time and display the person's name and roll number.
