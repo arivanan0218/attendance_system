@@ -75,10 +75,8 @@ python 4_recognizingPerson.py
 
 ---
 
-## Future Improvements
-- Add support for improved face detection models.
+## Future Improvement
 - Implement a GUI for easier usage.
-- Enhance dataset handling for large-scale recognition.
 
 ---
 
